@@ -1,0 +1,105 @@
+/*
+Youngseo Yi
+10/19/23
+CS20-Web Programming
+HW5: Tic Tac Toe
+Content: external style sheet for the Tic Tac Toe website
+*/
+
+/*resetting the page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Website header*/
+h1{
+    font-size:50px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: "Avantgarde", "TeX Gyre Adventor", sans-serif;
+}
+
+/*styling for each cell in the grid*/
+.cell {
+    display: inline-block;
+    border: 1px solid black;
+    width: 33%;
+    height: 33%;
+    line-height: 100px;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    vertical-align: top;
+    font-size:50px;
+    font-family: "OCR A Std", monospace;
+}
+
+/*changes the color of the cell when it's hovered over*/
+.cell:hover {
+    background-color: gray;
+ 
+}
+
+/*styling for the label saying the winner or player's turn*/
+.label {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: 6px solid black;
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Avantgarde", "TeX Gyre Adventor", sans-serif;
+
+}
+
+/*styling for the general grid*/
+.grid {
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/*style of the grid when the game is over*/
+.gameover {
+    display: inline-block;
+    border: 1px solid black;
+    width: 33%;
+    height: 33%;
+    line-height: 100px;
+    background-color: white;
+    text-align: center;
+    vertical-align: top;
+    background-color: gray;
+}
+
+/*styling for the reset button*/
+.reset {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    border: 3px solid black;
+    background-color: #d2d2d2;
+    margin-bottom: 10px;
+    line-height: 40px;
+    font-family: "Avantgarde", "TeX Gyre Adventor", sans-serif;
+    font-weight: bold;
+}
+
+/*changes the color of the reset button when hovered over*/
+.reset:hover {
+    background-color: #B3FFB3;
+
+}
